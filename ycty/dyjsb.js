@@ -32,15 +32,13 @@ if (gz==1 && fs <500){
     var i=i+1
     var widget = id("hko").findOne();
     click(widget.bounds().centerX(), widget.bounds().centerY());
+    sleep(1000)
     var widget = id("back_btn").findOne();
     click(widget.bounds().centerX(), widget.bounds().centerY());
-}else{
-    toast("没用账号，退出")
-    var widget = id("back_btn").findOne();
-    click(widget.bounds().centerX(), widget.bounds().centerY());
-}
+    sleep(1000)
     var widget = id("avatar").findOne();
     click(widget.bounds().centerX(), widget.bounds().centerY());
+    sleep(1000)
     var kongjian = id("hko").findOne();
     if (kongjian != null){
         click(kongjian.bounds().centerX(), kongjian.bounds().centerY());
@@ -69,6 +67,12 @@ if (gz==1 && fs <500){
         var widget = id("back_btn").findOne();
         click(widget.bounds().centerX(), widget.bounds().centerY());
     }
+}else{
+    toast("没用账号，退出")
+    var widget = id("back_btn").findOne();
+    click(widget.bounds().centerX(), widget.bounds().centerY());
+}
+    
 toast("正在寻找下一个")
 sleep(1000)
 var widget = id("avatar").findOne();
