@@ -32,6 +32,7 @@ if (gz==1 && fs <500){
     var i=i+1
     var widget = id("hko").findOne();
     click(widget.bounds().centerX(), widget.bounds().centerY());
+    var p = id("i+q").findOne();
     sleep(1000)
     var widget = id("back_btn").findOne();
     click(widget.bounds().centerX(), widget.bounds().centerY());
@@ -39,8 +40,7 @@ if (gz==1 && fs <500){
     var widget = id("avatar").findOne();
     click(widget.bounds().centerX(), widget.bounds().centerY());
     sleep(2000)
-    var kongjian = id("idz").findOne();
-    if (kongjian == null){
+    if ( q==p ){
         var widget = id("hko").findOne();
         click(widget.bounds().centerX(), widget.bounds().centerY());
         //重新关注
