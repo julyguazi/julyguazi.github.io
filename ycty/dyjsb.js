@@ -29,6 +29,7 @@ if (wf == -1){
 console.log(fs)
 if (gz==1 && fs <500){
     toast("账号符合，点击关注")
+    var dyc = id("i+q").findOne();
     var i=i+1
     var widget = id("hko").findOne();
     click(widget.bounds().centerX(), widget.bounds().centerY());
@@ -39,8 +40,8 @@ if (gz==1 && fs <500){
     var widget = id("avatar").findOne();
     click(widget.bounds().centerX(), widget.bounds().centerY());
     sleep(3000)
-    var p = id("i+q").findOne();
-    if ( q == p ){
+    var dec = id("i+q").findOne();
+    if ( dyc == dec ){
         var widget = id("hko").findOne();
         click(widget.bounds().centerX(), widget.bounds().centerY());
         //重新关注
