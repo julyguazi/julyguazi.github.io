@@ -7,7 +7,7 @@ while(i!=10){
 //获取名字
 click(widget.bounds().centerX(), widget.bounds().centerY());
 //点击
-console.log("1.0")
+console.log("1.1")
 sleep(2000);
 var b = id("i4r").findOne();
 //i4r为关注控件
@@ -29,7 +29,7 @@ if (wf == -1){
 console.log(fs)
 if (gz==1 && fs <500){
     var title = id("title").findOne();
-    if (title.text() == "这是私密账号"){
+    if (title.text() != null){
         toast("私密账号，不关注")
         var widget = id("di9").findOne();
         click(widget.bounds().centerX(), widget.bounds().centerY());
@@ -37,8 +37,8 @@ if (gz==1 && fs <500){
         toast("账号符合，点击关注")
     sleep(1000)
     var i=i+1
-    var widget = id("hv8").findOne();
-    //hv8为关注按钮
+    var widget = id("c7m").findOne();
+    //关注按钮
     click(widget.bounds().centerX(), widget.bounds().centerY());
     //点击关注按钮
     sleep(2000)
