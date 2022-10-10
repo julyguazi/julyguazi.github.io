@@ -54,7 +54,7 @@ if (gz==1 && fs <500){
         sleep(1000)
         var widget = id("ge3").findOne();
         click(widget.bounds().centerX(), widget.bounds().centerY());
-        setText("你好啊")
+        setText("你好啊,最近股票收益怎么样？")
         sleep(1000)
         var widget = id("adw").findOne();
         click(widget.bounds().centerX(), widget.bounds().centerY());
