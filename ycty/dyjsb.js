@@ -39,6 +39,36 @@ if (gz==1 && fs <500){
     var widget = id("back_btn").findOne();
     click(widget.bounds().centerX(), widget.bounds().centerY());
 }
+    var widget = id("avatar").findOne();
+    click(widget.bounds().centerX(), widget.bounds().centerY());
+    var kongjian = id("hko").findOne();
+    if (kongjian != null){
+        click(kongjian.bounds().centerX(), kongjian.bounds().centerY());
+        //重新关注
+        sleep(1000)
+        //等待一秒
+        var widget = id("idz").findOne();
+        click(widget.bounds().centerX(), widget.bounds().centerY());
+        //点击私信
+        sleep(1000)
+        var widget = id("ge3").findOne();
+        click(widget.bounds().centerX(), widget.bounds().centerY());
+        setText("你好啊")
+        sleep(1000)
+        var widget = id("adw").findOne();
+        click(widget.bounds().centerX(), widget.bounds().centerY());
+        //发送
+        sleep(1000)
+        var widget = id("fkl").findOne();
+        click(widget.bounds().centerX(), widget.bounds().centerY());
+        sleep(1000)
+        var widget = id("back_btn").findOne();
+        click(widget.bounds().centerX(), widget.bounds().centerY());
+        //退出
+    }else{
+        var widget = id("back_btn").findOne();
+        click(widget.bounds().centerX(), widget.bounds().centerY());
+    }
 toast("正在寻找下一个")
 sleep(1000)
 var widget = id("avatar").findOne();
