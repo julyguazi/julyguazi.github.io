@@ -3,7 +3,7 @@ var i = 0
 while(i!=10){
     toast("开始点名字")
    var widget = id("bja").findOne();
-   var mz1 = widget.text()
+   var tx1 = widget.text()
 //获取名字
 click(widget.bounds().centerX(), widget.bounds().centerY());
 //点击
