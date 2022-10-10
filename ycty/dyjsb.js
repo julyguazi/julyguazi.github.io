@@ -39,7 +39,7 @@ if (gz==1 && fs <500){
     var widget = id("avatar").findOne();
     click(widget.bounds().centerX(), widget.bounds().centerY());
     sleep(1000)
-    var kongjian = id("hkp").findOne();
+    var kongjian = id("hko").findOne();
     if (kongjian != null){
         click(kongjian.bounds().centerX(), kongjian.bounds().centerY());
         //重新关注
