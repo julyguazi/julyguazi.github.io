@@ -7,7 +7,7 @@ while(i!=10){
 //获取其中心位置并点击
 click(widget.bounds().centerX(), widget.bounds().centerY());
 //如果用root权限则
-console.log("1")
+console.log("1.1")
 sleep(2000);
 var b = id("i+n").findOne();
 //获取其中心位置并点击
@@ -30,6 +30,7 @@ console.log(fs)
 if (gz==1 && fs <500){
     toast("账号符合，点击关注")
     var dyc = id("i+q").findOne();
+    sleep(1000)
     var i=i+1
     var widget = id("hko").findOne();
     click(widget.bounds().centerX(), widget.bounds().centerY());
