@@ -28,8 +28,8 @@ if (wf == -1){
 }
 console.log(fs)
 if (gz==1 && fs <500){
-    var title = id("title").findOne();
-    if (title.text() != null){
+ //   var title = id("title").findOne();
+    if (id("title").exists()){
         toast("私密账号，不关注")
         var widget = id("di9").findOne();
         click(widget.bounds().centerX(), widget.bounds().centerY());
