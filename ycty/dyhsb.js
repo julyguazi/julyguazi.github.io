@@ -83,7 +83,7 @@ sleep(1000)
 var widget = id("bja").findOne();
 var tx2 = widget.text()
 while(tx2 ==tx1){
-    swipe(600,1450,601,1325,500)
+    swipe(600,1450,601,1350,500)
     sleep(2000)
     var widget = id("bja").findOne();
     var tx2 = widget.text()
