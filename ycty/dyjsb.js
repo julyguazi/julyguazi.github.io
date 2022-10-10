@@ -38,7 +38,7 @@ if (gz==1 && fs <500){
     sleep(1000)
     var widget = id("avatar").findOne();
     click(widget.bounds().centerX(), widget.bounds().centerY());
-    sleep(1000)
+    sleep(3000)
     var p = id("i+q").findOne();
     if ( q == p ){
         var widget = id("hko").findOne();
