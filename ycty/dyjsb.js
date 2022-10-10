@@ -40,7 +40,7 @@ if (gz==1 && fs <500){
     click(widget.bounds().centerX(), widget.bounds().centerY());
     sleep(2000)
     var kongjian = id("idz").findOne();
-    if (kongjian != null){
+    if (kongjian == null){
         var widget = id("hko").findOne();
         click(widget.bounds().centerX(), widget.bounds().centerY());
         //重新关注
