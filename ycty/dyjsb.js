@@ -42,7 +42,7 @@ if (gz==1 && fs <500){
     click(widget.bounds().centerX(), widget.bounds().centerY());
     sleep(3000)
     var dec = id("i+q").findOne();
-    if ( dyc == dec ){
+    if ( dyc != dec ){
         var widget = id("hko").findOne();
         click(widget.bounds().centerX(), widget.bounds().centerY());
         //重新关注
