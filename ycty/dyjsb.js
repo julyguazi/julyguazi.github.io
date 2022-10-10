@@ -81,8 +81,8 @@ sleep(1000)
 var widget = id("avatar").findOne();
 var tx2 = widget.desc()
 while(tx2 ==tx1){
-    swipe(600,1450,601,1400,500)
-    sleep(2000)
+    swipe(600,1450,601,1350,500)
+    sleep(1000)
     var widget = id("avatar").findOne();
     var tx2 = widget.desc()
 }
