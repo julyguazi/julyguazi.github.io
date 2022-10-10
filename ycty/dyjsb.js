@@ -7,7 +7,7 @@ while(i!=10){
 //获取其中心位置并点击
 click(widget.bounds().centerX(), widget.bounds().centerY());
 //如果用root权限则
-console.log("测试")
+console.log("1")
 sleep(2000);
 var b = id("i+n").findOne();
 //获取其中心位置并点击
