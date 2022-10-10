@@ -33,13 +33,13 @@ if (gz==1 && fs <500){
     var widget = id("hko").findOne();
     click(widget.bounds().centerX(), widget.bounds().centerY());
     sleep(1000)
-    var p = id("i+q").findOne();
     var widget = id("back_btn").findOne();
     click(widget.bounds().centerX(), widget.bounds().centerY());
     sleep(1000)
     var widget = id("avatar").findOne();
     click(widget.bounds().centerX(), widget.bounds().centerY());
     sleep(1000)
+    var p = id("i+q").findOne();
     if ( q == p ){
         var widget = id("hko").findOne();
         click(widget.bounds().centerX(), widget.bounds().centerY());
