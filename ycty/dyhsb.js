@@ -28,7 +28,7 @@ if (wf == -1){
 }
 console.log(fs)
     var hv = text("发私信").find();
-if (gz==1 && fs <500 && hv != null){
+if (gz==1 && fs <500 && hv == null){
  //   var title = id("title").findOne();
     if (id("title").exists()){
         toast("私密账号，不关注")
