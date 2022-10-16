@@ -27,7 +27,7 @@ if (wf == -1){
     var fs = 10000
 }
 console.log(fs)
-    var hv = id("hv9").findOne(1000);
+    var hv = id("hv9").find();
 if (gz==1 && fs <500 && hv != null){
  //   var title = id("title").findOne();
     if (id("title").exists()){
