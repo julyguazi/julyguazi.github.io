@@ -27,7 +27,8 @@ if (wf == -1){
     var fs = 10000
 }
 console.log(fs)
-if (gz==1 && fs <500){
+    var hv = id("hv9").findOne();
+if (gz==1 && fs <500 && hv != null){
  //   var title = id("title").findOne();
     if (id("title").exists()){
         toast("私密账号，不关注")
