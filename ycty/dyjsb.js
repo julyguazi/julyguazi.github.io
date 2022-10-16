@@ -29,7 +29,7 @@ console.log(fs)
     var ygz = id("hkp").findOne(1000);
     var smzh = id("title").findOne(1000);
 if (gz==1 && fs <500 && ygz == null){
-        if (smzh.text("私密账号").exists()){
+        if (smzh.text() == "私密账号" ){
         toast("私密账号，不关注")
         var widget = id("back_btn").findOne();
         click(widget.bounds().centerX(), widget.bounds().centerY());
