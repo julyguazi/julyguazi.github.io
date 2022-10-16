@@ -43,8 +43,13 @@ if (gz==1 && fs <500 && hv == null){
     click(widget.bounds().centerX(), widget.bounds().centerY());
     //点击关注按钮
     sleep(2000)
-    var widget = id("hv9").findOne();
+    var widget = id("hv9").findOne(1000);
     //hv9为发消息按钮
+        if (widget == null){
+        var widget = id("di9").findOne();
+        click(widget.bounds().centerX(), widget.bounds().centerY());
+            //点退出
+        }else{
     click(widget.bounds().centerX(), widget.bounds().centerY());
     //点击发消息
     sleep(2000)
@@ -72,6 +77,7 @@ if (gz==1 && fs <500 && hv == null){
         //返回控件
         click(widget.bounds().centerX(), widget.bounds().centerY());
         //退出
+        }
     }
     }else{
         var widget = id("di9").findOne();
