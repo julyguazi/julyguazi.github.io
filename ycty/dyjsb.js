@@ -28,7 +28,7 @@ if (wf == -1){
 console.log(fs)
     var ygz = id("hkp").findOne(1000);
 if (gz==1 && fs <500 && ygz == null){
-        if (text("私密账号").exists()==true){
+        if (text("私密账号").exists()){
         toast("私密账号，不关注")
         var widget = id("back_btn").findOne();
         click(widget.bounds().centerX(), widget.bounds().centerY());
