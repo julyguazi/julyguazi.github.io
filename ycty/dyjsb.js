@@ -40,9 +40,6 @@ if (gz==1 && fs <500 && ygz == null){
         i=i+1
     var widget = id("back_btn").findOne();
     click(widget.bounds().centerX(), widget.bounds().centerY());
-    }else{
-        var widget = id("back_btn").findOne();
-        click(widget.bounds().centerX(), widget.bounds().centerY());
     }
 }
 }else{
