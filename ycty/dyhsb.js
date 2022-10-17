@@ -1,6 +1,6 @@
 launchApp("抖音火山版")
 var i = 0
-while(i!=10){
+while(i!=30){
     toast("开始点名字")
    var widget = id("bja").findOne();
    var tx1 = widget.text()
@@ -97,7 +97,7 @@ while(tx2 ==tx1){
 }
 
 sleep(2000)
-toast(i+"/10")
+toast(i+"/30")
 }
 
 toast("结束")
