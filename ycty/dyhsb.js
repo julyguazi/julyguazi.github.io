@@ -38,7 +38,7 @@ if (gz==1 && fs <500 && hv == null){
         toast("账号符合，点击关注")
     sleep(1000)
     var i=i+1
-    var widget = id("c7m").findOne();
+    var widget = text("关注").findOne();
     //关注按钮
     click(widget.bounds().centerX(), widget.bounds().centerY());
     //点击关注按钮
