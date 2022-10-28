@@ -27,14 +27,10 @@ if (wf == -1){
     var fs = 10000
 }
 console.log(fs)
-    var hv = id("hv9").findOne(1000);
-if (gz==1 && fs <500 && hv == null){
+    //var hv = id("hv9").findOne(1000);
+if (gz==1 && fs <500 ){
  //   var title = id("title").findOne();
-    if (id("title").exists()){
-        toast("私密账号，不关注")
-        var widget = id("di9").findOne();
-        click(widget.bounds().centerX(), widget.bounds().centerY());
-    }else{
+  //  if (id("title").exists()){
         toast("账号符合，点击关注")
     sleep(1000)
     var i=i+1
@@ -45,11 +41,11 @@ if (gz==1 && fs <500 && hv == null){
     sleep(2000)
     var widget = id("hv9").findOne(1000);
     //hv9为发消息按钮
-        if (widget == null){
-        var widget = id("di9").findOne();
-        click(widget.bounds().centerX(), widget.bounds().centerY());
+  //      if (widget == null){
+  //      var widget = id("di9").findOne();
+   //     click(widget.bounds().centerX(), widget.bounds().centerY());
             //点退出
-        }else{
+  //      }else{
     click(widget.bounds().centerX(), widget.bounds().centerY());
     //点击发消息
     sleep(2000)
@@ -77,8 +73,7 @@ if (gz==1 && fs <500 && hv == null){
         //返回控件
         click(widget.bounds().centerX(), widget.bounds().centerY());
         //退出
-        }
-    }
+        
     }else{
         var widget = id("di9").findOne();
         click(widget.bounds().centerX(), widget.bounds().centerY());
