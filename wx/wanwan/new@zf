@@ -1,0 +1,477 @@
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+
+	<link rel="favicon" href="favicon.ico">
+	<title>热门代码库</title>
+	<link href="/static/admin/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/template/games/css/main.css?v1.0.0" rel="stylesheet">
+	<style type="text/css">
+		.box{width: 200px;height: 30px;background: #0000FF;color: #FFFFFF;margin: 0 auto;line-height: 30px;text-align: center;}
+	    body{text-align: center;}
+	    #ul{width:100%;display: inline-block;background: #FFF;overflow: visible;position: relative; list-style:none; padding:0; margin:0;}
+	    .boxList li{width: 25%;height: 45px;float: left;line-height: 45px;text-align: 45px; color: #000; border-right: 1px solid #e1e1e1;border-bottom: 1px solid #e1e1e1;font-size: 16px;}
+	    
+	    #ul>li>div{width:100%;height: 300px;background: #D92D37;display: none;font-size: 20px;color: #FFFFFF;text-align: center;line-height: 300px;}
+	    #ul>li:hover>div{display: block;position: absolute;left: 0px;top: 40px;background:#ededed;}
+	    
+	    #ul>.one:hover{background: #dddddd;}
+	    #ul>.two:hover{background: #dddddd;}
+	    #ul>.three:hover{background: #dddddd;}
+	    #ul>.fore:hover{background: #dddddd;}
+	    #ul>.five:hover{background: #dddddd;}
+	    .active{background:#ededed;}
+	    .content-top li{text-align:left;}
+		.content-top ul li{font-weight: 600;}
+		.content-top ul li p{text-align:left;margin:0px;}
+	    .content-top ul li a,.content-top ul li span{display:inline-block;}
+	    
+	    
+	    /*底部菜单样式*/
+	    #fix_footer {
+            -moz-box-shadow: 0px 0px 11px #FFFFFF;
+            -webkit-box-shadow: 0px 0px 11px #ffffff;
+            box-shadow: 0px 0px 11px #ffffff;
+            z-index: 99999999;
+        }
+        #fix_footer_menu_on {
+            width: 25%;
+            border-right: 1px solid rgba(255, 255, 255, 1);
+            background: #01a982;
+            font-family: 黑体;
+            background: #01a982;
+        }
+        #fix_footer_menu {
+            width: 25%;
+            border-right: 1px solid rgba(255, 255, 255, 1);
+            background: #01a982;
+            font-family: 黑体;
+        }
+        #fix_footer_menu img, #fix_footer_menu_on img {
+            width: 24px;
+            height: 25px;
+        }
+        
+        #fix_footer a{color:#FFF;}
+
+.head-btn{
+    background-color: green;
+    padding: 5px 2px;
+    font-size: 15px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.head-hot{
+    position: relative;
+    padding: 15px 0px 0px 0px;
+    z-index: 10;
+
+}
+
+.head-hot fieldset {
+    padding: 0px 13px 5px 13px;
+    margin: 0 2px;
+    border: 1px dashed #2ecc71;
+}
+
+.head-hot span{color:#000;font-weight: 500;font-size:16px;}
+
+.head-hot a {display:inline-block;color:#01a982;}
+
+.head-hot p {text-align:left;padding:1px 0px;margin:0px;}
+.head-hot p a {
+    font-weight: bold;
+    color: #02a982;
+    font-style: normal;
+    /* display: block; */
+    margin: 2px 0;
+}
+
+.head-tips span{color:red; font-weight:500; text-align:center;font-size:13px; display:inline-block;margin-top:5px;}
+
+	</style>
+</head>
+<body>
+<div id="all">
+	<div class="wrapper">
+	<div class="main">
+		<div class="content" style="text-align:center;background-color: rgb(255,255,255,0);">  
+            <a href="https://mp.weixin.qq.com/s/jVF0d00aUWUID1uT0L4zAw">
+                <img src="/static/images/wechat/banner1.jpg?v=1" width="350" style="margin-bottom: 5px; border-radius: 2%;">  
+            </a>
+        </div>
+		<div class="content">
+		<div class="content-top">
+		    <!--
+		    <div class="buttons-container">  
+                <button class="head-btn">💕支持小编</button>    
+                <button class="head-btn">🎮精品推荐</button>  
+            </div>
+            -->
+		    
+		    <div class="head-hot">
+    			<fieldset>
+                    <legend style="background: green; border: none;border-radius: 10px;  font-size: 0.9em; line-height: 20px; color: rgb(255, 255, 255); padding: 0px 4px; text-align: center;width: 30%;margin-bottom: 2px;">置顶推荐代码</legend>
+                    <div>
+                  
+        			<div style="text-align:left;">  
+                    <strong>
+                        <p>						<a href="/zf" target="_self">[预览]</a>
+						<span style="color:#000" ;>🔥发作品去涨粉：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/zf</a>
+						</span>
+					    </p>
+                        <p>						<a href="http://accct.cn/2403#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>🔥浪漫跨年烟花：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2403</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/5305#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>🔥期末考试祝福：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/5305</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2401#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>🔥跨年快乐烟花：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2401</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2402#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>🔥跨年的任务书：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2402</a>
+						</span>
+					    </p><p>						<a href="http://wan55.cn/pk#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>🔥地铁跑酷集合：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">wan55.cn/pk</a>
+						</span>
+					    </p><p>						<a href="http://wan55.cn/mc#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>🔥我的世界集合：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">wan55.cn/mc</a>
+						</span>
+					    </p><p>						<a href="http://wan55.cn/nb#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>🔥黑客代码集合：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">wan55.cn/nb</a>
+						</span>
+					    </p>                        
+                    </strong>  
+                </div>
+        			</div>
+                </fieldset>
+   <div class="head-tips" style="text-align:center;">  
+<span >tips：所有代码点击即可复制<br>录视频发视频号丨抖音丨快手必火🔥</span>  
+
+	</div>		
+    </div>
+            <ul><li></li></ul>
+			<ul><li>
+			最近更新 🕑
+				<p>						<a href="http://accct.cn/2403#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>新年浪漫烟花：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2403</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2402#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>跨年的任务书：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2402</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2445#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>元旦吉祥祝福：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2445</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2444#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>新年真诚祝福：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2444</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2443#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>新年万事如意：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2443</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2442#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>跨年相约表白：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2442</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2441#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>跨年表白烟花：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2441</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2440#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>新年开心祝福：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2440</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2439#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>龙年大吉祝福：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2439</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2438#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>新年美好祝愿：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2438</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2437#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>新年朋友祝福：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2437</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2436#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>新年团团圆圆：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2436</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2435#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>新年深情表白：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2435</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2434#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>新年搞怪祝福：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2434</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2433#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>新年佳节如意：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2433</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2432#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>春节快乐祝福：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2432</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2431#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>一起跨年好吗：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2431</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2429#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>元旦过迎新年：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2429</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2428#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>春节祝福烟花：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2428</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2427#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>新年快乐祝福：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2427</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2426#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>陪我一起跨年：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2426</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2425#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>龙年岁岁欢愉：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2425</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2424#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>新年好友祝福：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2424</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2423#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>祝2024年的你：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2423</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2422#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>跨年快乐祝福：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2422</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2421#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>新年祝福红包：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2421</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2420#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>春节祝福代码：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2420</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/232#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>朋友新年快乐：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/232</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/215#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>2024你好：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/215</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/231#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>祝你跨年快乐：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/231</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/214#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>家人新年快乐：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/214</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/213#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>2024你好：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/213</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/212#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>新年快乐：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/212</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/211#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>元旦祝福快车：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/211</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/230#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>跨年快乐烟花：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/230</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/210#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>新年快乐：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/210</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/2520#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>跨年了我爱你：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/2520</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/570#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>圣诞幸运之树：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/570</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/571#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>圣诞未来之树：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/571</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/572#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>圣诞爱神之树：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/572</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/573#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>圣诞快乐之树：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/573</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/574#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>圣诞许愿之树：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/574</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/575#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>圣诞幸运之树：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/575</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/576#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>圣诞圆梦之树：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/576</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/577#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>圣诞平安之树：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/577</a>
+						</span>
+					    </p><p>						<a href="http://accct.cn/5310#new" target="_self">[预览]</a>
+						<span style="color:#000" ;>炫酷粒子圣诞树：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">accct.cn/5310</a>
+						</span>
+					    </p><p>
+                    
+					<a href="http://360ab.cn/5308#new" target="_self">[预览]</a>
+					<span style="color:#000" ;>公主的烟花：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">360ab.cn/5308</a>
+					</span>
+				</p>
+				<p>
+                    
+					<a href="http://360ab.cn/5307#new" target="_self">[预览]</a>
+					<span style="color:#000" ;>新年烟花代码：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">360ab.cn/5307</a>
+					</span>
+				</p>
+				<p>
+                    
+					<a href="http://360ab.cn/1704#new" target="_self">[预览]</a>
+					<span style="color:#000" ;>冬至团圆：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">360ab.cn/1704</a>
+					</span>
+				</p>
+				<p>
+                    
+					<a href="http://360ab.cn/1703#new" target="_self">[预览]</a>
+					<span style="color:#000" ;>冬至大如年：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">360ab.cn/1703</a>
+					</span>
+				</p>
+				<p>
+                    
+					<a href="http://360ab.cn/1702#new" target="_self">[预览]</a>
+					<span style="color:#000" ;>冬至快乐祝福：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">360ab.cn/1702</a>
+					</span>
+				</p>
+				<p>
+                    
+					<a href="http://360ab.cn/2409#new" target="_self">[预览]</a>
+					<span style="color:#000" ;>新年烟花视频：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">360ab.cn/2409</a>
+					</span>
+				</p>
+				<p>
+                    
+					<a href="http://360ab.cn/426#new" target="_self">[预览]</a>
+					<span style="color:#000" ;>恶搞孤寡青蛙：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">360ab.cn/426</a>
+					</span>
+				</p>
+				<p>
+                    
+					<a href="http://360ab.cn/270#new" target="_self">[预览]</a>
+					<span style="color:#000" ;>I LOVE YOU：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">360ab.cn/270</a>
+					</span>
+				</p>
+				<p>
+                    
+					<a href="http://360ab.cn/269#new" target="_self">[预览]</a>
+					<span style="color:#000" ;>我喜欢你：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">360ab.cn/269</a>
+					</span>
+				</p>
+				<p>
+                    
+					<a href="http://360ab.cn/268#new" target="_self">[预览]</a>
+					<span style="color:#000" ;>心里只有你：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">360ab.cn/268</a>
+					</span>
+				</p>
+				<p>
+                    
+					<a href="http://360ab.cn/2321#new" target="_self">[预览]</a>
+					<span style="color:#000" ;>2023万事顺遂：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">360ab.cn/2321</a>
+					</span>
+				</p>
+				<p>
+                    
+					<a href="http://360ab.cn/2320#new" target="_self">[预览]</a>
+					<span style="color:#000" ;>2023很哇塞：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">360ab.cn/2320</a>
+					</span>
+				</p>
+				<p>
+                    
+					<a href="http://360ab.cn/2430#new" target="_self">[预览]</a>
+					<span style="color:#000" ;>熊二恭喜视频：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">360ab.cn/2430</a>
+					</span>
+				</p>
+				<p>
+                    
+					<a href="http://360ab.cn/673#new" target="_self">[预览]</a>
+					<span style="color:#000" ;>烟花定制代码：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">360ab.cn/673</a>
+					</span>
+				</p>
+				<p>
+                    
+					<a href="http://360ab.cn/1701#new" target="_self">[预览]</a>
+					<span style="color:#000" ;>立冬祝福：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">360ab.cn/1701</a>
+					</span>
+				</p>
+				<p>
+                    
+					<a href="http://360ab.cn/2451#new" target="_self">[预览]</a>
+					<span style="color:#000" ;>跨年倒计时2：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">360ab.cn/2451</a>
+					</span>
+				</p>
+				<p>
+                    
+					<a href="http://360ab.cn/2450#new" target="_self">[预览]</a>
+					<span style="color:#000" ;>跨年倒计时1：<a id="btn-copy" href="javascript:;" onclick="copy_text = $(this).parent().text().trim();">360ab.cn/2450</a>
+					</span>
+				</p>
+							</li></ul>
+		</div>
+		</div>
+		<p class="footer" style="padding-bottom:50px;">资源来自于网络，版权属于作者所有
+			<br>如有冒犯，请联系我们第一时间删除
+			<br>© 2023 <a href="#"> 代码大全</a>. All Rights Reserved</p>
+	</div>
+
+	</div>
+</div>
+<div class="fix_footer" id="fix_footer" style="left:0;background-color:#191919;color:#ffffff;height:55px;width:100%;position:fixed;bottom:0%;font-size:14px;">
+	<table width="100%" height="100%" border="0" style="border-collapse: collapse;">
+		<tbody>
+			<tr>
+				<td id="fix_footer_menu" align="center">
+					<a href="#">
+					    <img src="/shtml/dh/lishi01.png">
+					<br>往期汇总
+					</a>
+				</td>
+				<td id="fix_footer_menu" align="center">
+				    <a href="http://wan55.cn/game">
+					<img src="http://xu6.top/666/images/0.png" style="width: 28px; height: 26px;">
+					<br>游戏代码
+					</a>
+				</td>
+				<td id="fix_footer_menu" align="center">
+				    <a href="http://accct.cn/code">
+					<img src="http://xu6.top/666/images/1.png" style="width: 24px; height: 24px;">
+					<br>文案代码
+					</a>
+				</td>
+				<td id="fix_footer_menu" align="center">
+				    <a href="https://mp.weixin.qq.com/s/jfZM1sdAmBWm2HoDkg-abQ">
+					<img src="/shtml/dh/gz04.png" style="width: 26px; height: 26px;">
+					<br>关注我们
+					</a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<div style='display:none'>1</div>
+
+<script src="https://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="/static/admin/js/bootstrap-notify.min.js"></script>
+<script type="text/javascript" src="/static/admin/js/lightyear.js"></script>
+<script type="text/javascript" src="/static/admin/js/jquery.raty.js"></script>
+<script src="https://lib.baomitu.com/clipboard.js/2.0.8/clipboard.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/layer/3.5.1/layer.js"></script>
+<script>
+    layer.open({
+        content: '<div class="layui-m-layercont"><p style="border: none; font-size: 1.5em; line-height: 20px; color: #000; padding: 0px 4px; text-align: center;margin-bottom: 16px;"><b>公告</b></p><p style="font-size: 1.2em;"><font color="#000">点击代码即可<font color="red"> 复制 </font></font><br><font color="#000">底部有代码<font color="red"> 导航栏！</font></font><p></div>',
+    	btn: '朕知道了'
+    });
+
+    var _hmt = _hmt || [];
+    (function() {
+    	var hm = document.createElement("script");
+    	hm.src = "https://hm.baidu.com/hm.js?9268d9128fcebf1a5da96d7cb2a8dac4";//CN统计
+    	var s = document.getElementsByTagName("script")[0]; 
+    	s.parentNode.insertBefore(hm, s);
+    })();
+    
+	var copy_text = "http://ai8.top/game";
+	
+    var clipboard = new ClipboardJS('#btn-copy', {
+        text: function() {
+            //window.location.href = "https://" + copy_text.split("：")[1];
+            lightyear.notify('复制成功~ 请去好友聊天界面发送打开', 'success', 1500, 'mdi mdi-emoticon-happy', 'top', 'right');
+            return copy_text;
+        }
+    });
+    
+</script>
+</body>
+</html>

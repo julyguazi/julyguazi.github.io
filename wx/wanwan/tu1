@@ -1,0 +1,91 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+	<link rel="favicon" href="favicon.ico">
+	<title>热门跨年代码01.01</title>
+	<style>
+	    .desc{position: absolute; top: 17%; left: 12%; font-size: .9rem; color: #797979;}
+	    .desc span{margin-right:12px;}
+	    
+	    .code{position: absolute; top: 20%; left: 12%; font-family: Arial, sans-serif; font-size: 1.05rem; line-height: .85rem;}
+	    
+	    .code span:nth-child(1){font-weight: bold; color: #607d8b; letter-spacing: 1px; text-decoration: underline;margin-right:10px;font-size:1.05rem;line-height: .85rem;}
+	</style>
+</head>
+<body style="background-image: url(''); background-size: 100%; background-repeat: no-repeat;">
+<div style="font-size: 1.5rem; position: absolute; top: 12%; left: 12%; font-weight: bold; letter-spacing: 2px;">热门跨年代码01.01</div>
+
+<div class="desc" >
+    <span>01月01日</span>
+    <span>05:40</span>
+    <span>176404 Views</span>
+</div>
+
+<div class="code" >
+    <p>
+        <!--2409-->
+        <span>accct.cn/2409</span>
+        <span>新年烟花视频</span>
+    </p><p>
+        <!--2424-->
+        <span>accct.cn/2424</span>
+        <span>新年好友祝福</span>
+    </p><p>
+        <!--2440-->
+        <span>accct.cn/2440</span>
+        <span>新年开心祝福</span>
+    </p><p>
+        <!--2435-->
+        <span>accct.cn/2435</span>
+        <span>新年深情表白</span>
+    </p><p>
+        <!--270-->
+        <span>accct.cn/270</span>
+        <span>&nbsp;&nbsp;I LOVE YOU</span>
+    </p><p>
+        <!--1561-->
+        <span>accct.cn/1561</span>
+        <span>深情恋爱情话</span>
+    </p><p>
+        <!--262-->
+        <span>accct.cn/262</span>
+        <span>&nbsp;&nbsp;表白拒绝</span>
+    </p><p>
+        <!--103-->
+        <span>accct.cn/103</span>
+        <span>&nbsp;&nbsp;兄弟生日</span>
+    </p><p>
+        <!--402-->
+        <span>accct.cn/402</span>
+        <span>&nbsp;&nbsp;恶搞</span>
+    </p><p>
+        <!--423-->
+        <span>accct.cn/423</span>
+        <span>&nbsp;&nbsp;恶搞,有趣</span>
+    </p><p>
+        <!--1499-->
+        <span>accct.cn/1499</span>
+        <span>甜蜜恋爱情话</span>
+    </p><p>
+        <!--1401-->
+        <span>accct.cn/1401</span>
+        <span>情侣道歉信</span>
+    </p><p>
+        <!--300-->
+        <span>accct.cn/300</span>
+        <span>&nbsp;&nbsp;早安花式代码</span>
+    </p><p>
+        <!--810-->
+        <span>wan77.cn/810</span>
+        <span>&nbsp;&nbsp;画线救人</span>
+    </p></div>
+<!--<script src="https://web2.20it.cn/template/common/main.js?v1.0.280"></script>-->
+<script src="https://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+var _0xodf='jsjiami.com.v7';function _0x3464(_0x2ce0fc,_0x1890c9){var _0xb698e7=_0xb698();return _0x3464=function(_0x34646f,_0x2a79b5){_0x34646f=_0x34646f-0x155;var _0x105450=_0xb698e7[_0x34646f];if(_0x3464['GgphrL']===undefined){var _0x4ed1a1=function(_0x2a9b46){var _0x1c0043='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';var _0x5e5117='',_0x5d3e3e='';for(var _0x60b651=0x0,_0x46845e,_0x2bf330,_0x2c1183=0x0;_0x2bf330=_0x2a9b46['charAt'](_0x2c1183++);~_0x2bf330&&(_0x46845e=_0x60b651%0x4?_0x46845e*0x40+_0x2bf330:_0x2bf330,_0x60b651++%0x4)?_0x5e5117+=String['fromCharCode'](0xff&_0x46845e>>(-0x2*_0x60b651&0x6)):0x0){_0x2bf330=_0x1c0043['indexOf'](_0x2bf330);}for(var _0x234481=0x0,_0xf259f3=_0x5e5117['length'];_0x234481<_0xf259f3;_0x234481++){_0x5d3e3e+='%'+('00'+_0x5e5117['charCodeAt'](_0x234481)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x5d3e3e);};var _0x1c1da6=function(_0x520ef9,_0x126145){var _0x216663=[],_0x565243=0x0,_0x28aee3,_0x5b8876='';_0x520ef9=_0x4ed1a1(_0x520ef9);var _0x386a05;for(_0x386a05=0x0;_0x386a05<0x100;_0x386a05++){_0x216663[_0x386a05]=_0x386a05;}for(_0x386a05=0x0;_0x386a05<0x100;_0x386a05++){_0x565243=(_0x565243+_0x216663[_0x386a05]+_0x126145['charCodeAt'](_0x386a05%_0x126145['length']))%0x100,_0x28aee3=_0x216663[_0x386a05],_0x216663[_0x386a05]=_0x216663[_0x565243],_0x216663[_0x565243]=_0x28aee3;}_0x386a05=0x0,_0x565243=0x0;for(var _0xffc1f9=0x0;_0xffc1f9<_0x520ef9['length'];_0xffc1f9++){_0x386a05=(_0x386a05+0x1)%0x100,_0x565243=(_0x565243+_0x216663[_0x386a05])%0x100,_0x28aee3=_0x216663[_0x386a05],_0x216663[_0x386a05]=_0x216663[_0x565243],_0x216663[_0x565243]=_0x28aee3,_0x5b8876+=String['fromCharCode'](_0x520ef9['charCodeAt'](_0xffc1f9)^_0x216663[(_0x216663[_0x386a05]+_0x216663[_0x565243])%0x100]);}return _0x5b8876;};_0x3464['lEZWev']=_0x1c1da6,_0x2ce0fc=arguments,_0x3464['GgphrL']=!![];}var _0x518180=_0xb698e7[0x0],_0x4e6a6b=_0x34646f+_0x518180,_0x122121=_0x2ce0fc[_0x4e6a6b];return!_0x122121?(_0x3464['APsKSJ']===undefined&&(_0x3464['APsKSJ']=!![]),_0x105450=_0x3464['lEZWev'](_0x105450,_0x2a79b5),_0x2ce0fc[_0x4e6a6b]=_0x105450):_0x105450=_0x122121,_0x105450;},_0x3464(_0x2ce0fc,_0x1890c9);}var _0xbb9a50=_0x3464;(function(_0x14fa15,_0x4a8d52,_0x4a5a12,_0x552c07,_0x5c79fc,_0x1247f6,_0x17d371){return _0x14fa15=_0x14fa15>>0x9,_0x1247f6='hs',_0x17d371='hs',function(_0x3d2d48,_0x824888,_0x4d5666,_0x50a371,_0x13b14c){var _0x5ebcb8=_0x3464;_0x50a371='tfi',_0x1247f6=_0x50a371+_0x1247f6,_0x13b14c='up',_0x17d371+=_0x13b14c,_0x1247f6=_0x4d5666(_0x1247f6),_0x17d371=_0x4d5666(_0x17d371),_0x4d5666=0x0;var _0x4d3161=_0x3d2d48();while(!![]&&--_0x552c07+_0x824888){try{_0x50a371=-parseInt(_0x5ebcb8(0x15b,'VX!q'))/0x1+-parseInt(_0x5ebcb8(0x159,'PwTq'))/0x2+parseInt(_0x5ebcb8(0x162,'P3eO'))/0x3+parseInt(_0x5ebcb8(0x155,'P3eO'))/0x4+-parseInt(_0x5ebcb8(0x160,'7qqC'))/0x5*(parseInt(_0x5ebcb8(0x15a,'c6m)'))/0x6)+parseInt(_0x5ebcb8(0x168,'7qqC'))/0x7+-parseInt(_0x5ebcb8(0x15e,'@l@s'))/0x8;}catch(_0x12b3d0){_0x50a371=_0x4d5666;}finally{_0x13b14c=_0x4d3161[_0x1247f6]();if(_0x14fa15<=_0x552c07)_0x4d5666?_0x5c79fc?_0x50a371=_0x13b14c:_0x5c79fc=_0x13b14c:_0x4d5666=_0x13b14c;else{if(_0x4d5666==_0x5c79fc['replace'](/[LRgKdrpIeYGBlhOMQbxf=]/g,'')){if(_0x50a371===_0x824888){_0x4d3161['un'+_0x1247f6](_0x13b14c);break;}_0x4d3161[_0x17d371](_0x13b14c);}}}}}(_0x4a5a12,_0x4a8d52,function(_0x5b221e,_0x46cd00,_0x2d6de7,_0x487840,_0x321257,_0x2e568e,_0x5e7c6d){return _0x46cd00='\x73\x70\x6c\x69\x74',_0x5b221e=arguments[0x0],_0x5b221e=_0x5b221e[_0x46cd00](''),_0x2d6de7='\x72\x65\x76\x65\x72\x73\x65',_0x5b221e=_0x5b221e[_0x2d6de7]('\x76'),_0x487840='\x6a\x6f\x69\x6e',(0x14dfb9,_0x5b221e[_0x487840](''));});}(0x18200,0x592d6,_0xb698,0xc3),_0xb698)&&(_0xodf=0xea9);var data_type=0x0,strVar='',bgurl='http://accct.cn/other/jietu/text3.jpg';strVar+=_0xbb9a50(0x15d,']s@['),strVar+=_0xbb9a50(0x158,'VX!q'),strVar+=_0xbb9a50(0x163,'#Y0D'),strVar+='\x09\x20\x20\x20\x20.desc\x20span{margin-right:12px;}',strVar+=_0xbb9a50(0x156,'c6m)'),strVar+=_0xbb9a50(0x15c,'WHAt'),strVar+='\x09\x20\x20\x20\x20',strVar+='\x09\x20\x20\x20\x20.code\x20span:nth-child(1){font-weight:\x20bold;\x20color:\x20#607d8b;\x20letter-spacing:\x201px;\x20text-decoration:\x20underline;margin-right:10px;font-size:1.05rem;line-height:\x20.85rem;}',strVar+='\x09</style>',document[_0xbb9a50(0x166,'][ih')](strVar),$(_0xbb9a50(0x167,'xb42'))[_0xbb9a50(0x165,'riDT')](_0xbb9a50(0x15f,'tEaz'),'url(\x22'+bgurl+'\x22)');function _0xb698(){var _0xd22e99=(function(){return[_0xodf,'RBOMjsBjbIiamOirge.OdcOYoKGLm.hvxO7lQxfp==','g01cwsOTkmkRW7GrtG','WQmGW6CFW6ddV8o3WOpdQSouWQD5Ba','W4FdLNODW5PNW6RcUutdPcJcK8k7','imo3zcucE8kcW4RdIX7dR0TLBfxcVqpdKhv6gmoSW5m2rSkkWQOoispcP8kOW6SjWQ3cSeqZW51ag8kkW5fVB2HphNe0zmkclmo7W4tcJKWEtcLWWRldRghdQCoGyeRdKCoQm8kUWOhdKCoeWPZcS8k6EfNdUc3cNrD/CG','y8kInCkPwmoibmkVWOCFoCoVWPS','WRXRW5q'].concat((function(){return['nCoZW4i9aq','W5BdKmkEWOO','ge9pvI5/umktW6e8tCk0Aq','W4FdKhCFW5bJW6tcSLZdTq3cICkw','e8kxeYhcKq','W75msxNcUvrqmSoIma','W7pdT8kbi8kOW6qS','c8k5W6RcVqNdOvr9cgFdMcm'].concat((function(){return['k8kgatNdVmoyACosW6VdRq','W7JcS8onBmoYW7zkW5ruDSkL','WRqAW7VcVtq9Amkzmc95hLLXj8ozWOFdP8k6pSokWO8AWPSab8kWlmknoMrKWRGLW7ydW6KsjMNdGehdKmkvWRTaWRtdQSo/FI5UW43dTmkcWRlcVd9fkgtcI8oeoh7dRaJcOHZcVSkNW5OUzqJcJM9sDCkxp3XnW6a5v8ocimogp8ohW6tdGCoAq3LbWOJcTCoPW67cTmo/W5tcHxhcIJ0hW7FcGSo9d8oeW51qWQ9mW7fdemouW5bZga','WOBdHfmVyCoKW6ZdM8ksW7lcTKakW7RdGSkcmSkNWP0ZW4BcJq5mWP1tamk4WRb9EHhcRSo3w8ocerKmWP/cLf1HetNdGCkRjhVcKwJdKCkRWQDPW63dLmoOFmkXnLmVWQOLW7lcGvFcRqy0FM5NoCk0BW','WQZcMZpcP8oMWPldLx3dNSoKBmoRyW','cwlcKZ/dHSkltSo3WOVcR8k3kY/cQZxcJa'];}()));}()));}());_0xb698=function(){return _0xd22e99;};return _0xb698();};var version_ = 'jsjiami.com.v7';
+</script>
+
+
+</body>
+</html>
