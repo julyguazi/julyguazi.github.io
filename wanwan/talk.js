@@ -25,7 +25,7 @@ function C() {
     modal('这是属于你的烟花', D);
 }
 
-function J() {
+function D() {
     modal('行，开始！', function() {
         fireworks();
     });
