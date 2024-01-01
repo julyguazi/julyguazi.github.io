@@ -18,7 +18,7 @@ function A() {
 }
 
 function B() {
-    modal('我再啰嗦两句', C);
+    modal('我', C);
 }
 
 function C() {
