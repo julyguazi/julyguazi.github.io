@@ -1,1 +1,0 @@
-{"status":1,"name":"莫甘娜1","jieshao":"十年陪伴，无限热爱！风靡全球的MOBA经典之作.\n真正的5V5公平竞技对战，传承端游纯正体验。人气英雄，经典还原；公平竞技，实力至上；峡谷传说，掌心再现。策略、战术、意识、配合，在移动端重现峡谷战场乐趣。\n集结吧召唤师——欢迎来到英雄联盟，是时候展现真正的技术了。","img":"https://ossweb-img.qq.com/images/lol/img/champion/Morgana.png","username":"腾讯","down":"https://txlou.club/","data":[],"ts":1702644692771}
